@@ -1,0 +1,1547 @@
+{
+  "scorecard": {
+    "summary": {
+      "total_documents": 19,
+      "form_documents_scored": 16,
+      "decoy_documents": 3,
+      "header_fields_evaluated_per_dict": 14,
+      "canonical_fields_out_of_scope_for_baseline": 19,
+      "total_applicable_field_instances": 167,
+      "exact_matches": 40,
+      "partial_matches": 26,
+      "misses": 101,
+      "strict_accuracy": 0.2395,
+      "weighted_accuracy": 0.3174
+    },
+    "per_field": {
+      "company_name": {
+        "applicable": 16,
+        "exact": 0,
+        "partial": 6,
+        "miss": 10,
+        "strict_accuracy": 0.0,
+        "weighted_accuracy": 0.188
+      },
+      "contact_name": {
+        "applicable": 15,
+        "exact": 2,
+        "partial": 2,
+        "miss": 11,
+        "strict_accuracy": 0.133,
+        "weighted_accuracy": 0.2
+      },
+      "email": {
+        "applicable": 16,
+        "exact": 6,
+        "partial": 0,
+        "miss": 10,
+        "strict_accuracy": 0.375,
+        "weighted_accuracy": 0.375
+      },
+      "phone": {
+        "applicable": 16,
+        "exact": 7,
+        "partial": 0,
+        "miss": 9,
+        "strict_accuracy": 0.438,
+        "weighted_accuracy": 0.438
+      },
+      "address": {
+        "applicable": 14,
+        "exact": 0,
+        "partial": 4,
+        "miss": 10,
+        "strict_accuracy": 0.0,
+        "weighted_accuracy": 0.143
+      },
+      "project": {
+        "applicable": 13,
+        "exact": 2,
+        "partial": 4,
+        "miss": 7,
+        "strict_accuracy": 0.154,
+        "weighted_accuracy": 0.308
+      },
+      "quote_po_proforma": {
+        "applicable": 9,
+        "exact": 0,
+        "partial": 3,
+        "miss": 6,
+        "strict_accuracy": 0.0,
+        "weighted_accuracy": 0.167
+      },
+      "carrier": {
+        "applicable": 6,
+        "exact": 0,
+        "partial": 2,
+        "miss": 4,
+        "strict_accuracy": 0.0,
+        "weighted_accuracy": 0.167
+      },
+      "waybill": {
+        "applicable": 5,
+        "exact": 1,
+        "partial": 0,
+        "miss": 4,
+        "strict_accuracy": 0.2,
+        "weighted_accuracy": 0.2
+      },
+      "num_packages": {
+        "applicable": 10,
+        "exact": 6,
+        "partial": 0,
+        "miss": 4,
+        "strict_accuracy": 0.6,
+        "weighted_accuracy": 0.6
+      },
+      "num_samples": {
+        "applicable": 15,
+        "exact": 5,
+        "partial": 0,
+        "miss": 10,
+        "strict_accuracy": 0.333,
+        "weighted_accuracy": 0.333
+      },
+      "priority": {
+        "applicable": 15,
+        "exact": 11,
+        "partial": 4,
+        "miss": 0,
+        "strict_accuracy": 0.733,
+        "weighted_accuracy": 0.867
+      },
+      "payment_method": {
+        "applicable": 11,
+        "exact": 0,
+        "partial": 0,
+        "miss": 11,
+        "strict_accuracy": 0.0,
+        "weighted_accuracy": 0.0
+      },
+      "special_instructions": {
+        "applicable": 6,
+        "exact": 0,
+        "partial": 1,
+        "miss": 5,
+        "strict_accuracy": 0.0,
+        "weighted_accuracy": 0.083
+      }
+    },
+    "sample_table_capture": {
+      "docs_with_gold_rows": 16,
+      "docs_code_detected_rows": 11,
+      "total_samples_exact": 1,
+      "total_samples_applicable": 16
+    },
+    "decoy_robustness": [
+      {
+        "doc": "Burkina_Inventory",
+        "false_positive_fields": [
+          "quote_po_proforma"
+        ],
+        "false_positive_count": 1,
+        "raw_nonempty_fields": 82,
+        "code_sample_rows": 0,
+        "priority_forced": true
+      },
+      {
+        "doc": "Colombia_Inventory",
+        "false_positive_fields": [
+          "quote_po_proforma"
+        ],
+        "false_positive_count": 1,
+        "raw_nonempty_fields": 114,
+        "code_sample_rows": 0,
+        "priority_forced": true
+      },
+      {
+        "doc": "Namibia_Inventory",
+        "false_positive_fields": [
+          "quote_po_proforma"
+        ],
+        "false_positive_count": 1,
+        "raw_nonempty_fields": 51,
+        "code_sample_rows": 0,
+        "priority_forced": true
+      }
+    ],
+    "out_of_scope_fields": [
+      "grade_type",
+      "confirmation_email",
+      "reporting_contacts",
+      "sample_disposition_matrix",
+      "return_address",
+      "hazardous_materials",
+      "authorized_signature",
+      "authorized_print_name",
+      "authorized_date",
+      "sample_weight",
+      "customs_tariff",
+      "billing_code",
+      "job_number",
+      "testing_notes",
+      "analysis_suite",
+      "shipment_type",
+      "wra_code",
+      "disposal_code",
+      "overlimit_code"
+    ]
+  },
+  "per_document": {
+    "1911_GOLD-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "1911 GOLD-1.pdf",
+      "applicable": 14,
+      "exact": 6,
+      "partial": 6,
+      "miss": 2,
+      "credit": 9.0,
+      "strict_acc": 0.429,
+      "weighted_acc": 0.643,
+      "fields": {
+        "company_name": {
+          "gold": "1911 Gold Corporation",
+          "code": "1911 Gold Corporation                                                             At cost + 15% (client will be invoiced)",
+          "result": "PARTIAL"
+        },
+        "contact_name": {
+          "gold": "Devin Pickell",
+          "code": "Devin Pickell                                                                   Company: 1911 Gold Corporation",
+          "result": "PARTIAL"
+        },
+        "email": {
+          "gold": "dpickell@1911gold.com",
+          "code": "dpickell@1911gold.com                                                         E-mail: akathler@1911gold.com",
+          "result": "EXACT"
+        },
+        "phone": {
+          "gold": "1-204-277-5411 x 256",
+          "code": "1-204-277-5411 x 256   Fax: 1-204-277-5552                                    Phone : 1-204-277-5411 x 258       Fax: 1-204-277-5552",
+          "result": "EXACT"
+        },
+        "address": {
+          "gold": "PO Box 1000 Bissett MB R0E 0J0",
+          "code": "PO Box 1000 Bissett MB R0E 0J0                                               Address: PO Box 1000 Bissett MB R0E 0J0",
+          "result": "PARTIAL"
+        },
+        "project": {
+          "gold": "1911Gold",
+          "code": "1911Gold",
+          "result": "EXACT"
+        },
+        "quote_po_proforma": {
+          "gold": "1911Gold-2020-01-R1; Client Batch CM22010",
+          "code": ", PO #, Proforma #: 1911Gold-2020-01-R1",
+          "result": "PARTIAL"
+        },
+        "carrier": {
+          "gold": "Manitoulin",
+          "code": "Manitoulin               Waybill #: 24383319                                                 # of Packages: 60                   # of Samples3: 01",
+          "result": "PARTIAL"
+        },
+        "waybill": {
+          "gold": "24383319",
+          "code": "24383319",
+          "result": "EXACT"
+        },
+        "num_packages": {
+          "gold": 60,
+          "code": "60",
+          "result": "EXACT"
+        },
+        "num_samples": {
+          "gold": 301,
+          "code": "3",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal (may vary depending on package and time of year - please enquire)  Confirmation of Sample Receipt:           Yes       No",
+          "result": "EXACT"
+        },
+        "payment_method": {
+          "gold": "CreditEstablished",
+          "code": "For all clients, unless credit has been established, a suitable form                       Visa              MasterCard    AMEX",
+          "result": "MISS"
+        },
+        "special_instructions": {
+          "gold": "Return Pulps and Rejects every 90 days and send duplicate rejects to TSL Saskatoon when notified by client. Duplicates on samples: B1272468, B1272488, B1272508, B1272528, B1272548, B1272568, B1272588, B1272608, B1272628, B1272648, B1272668, B1272688, B1272708, B1272728, B1272748",
+          "code": "Return Pulps and Rejects every 90 days and send duplicate rejects to TSL Saskatoon when notified by client",
+          "result": "PARTIAL"
+        }
+      },
+      "sample_table": {
+        "gold_total": 301,
+        "gold_rows": 1,
+        "code_rows": 234,
+        "code_total_est": 234,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "1A2",
+          "4LITHO",
+          "UT-1M"
+        ],
+        "gold_prep": [
+          "RX1"
+        ]
+      }
+    },
+    "Alberta_Energy_Regulator-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "Alberta Energy Regulator-1.pdf",
+      "applicable": 12,
+      "exact": 5,
+      "partial": 5,
+      "miss": 2,
+      "credit": 7.5,
+      "strict_acc": 0.417,
+      "weighted_acc": 0.625,
+      "fields": {
+        "company_name": {
+          "gold": "Alberta Energy Regulator",
+          "code": "Alberta Energy Regulator                      METHOD OF PAYMENT",
+          "result": "PARTIAL"
+        },
+        "contact_name": {
+          "gold": "Dean Meek",
+          "code": "Dean Meek",
+          "result": "EXACT"
+        },
+        "email": {
+          "gold": "dean.meek@aer.ca",
+          "code": "dean.meek@aer.ca                                        Charge to NEW Credit Card (details are provided below)",
+          "result": "EXACT"
+        },
+        "phone": {
+          "gold": "780-642-9341",
+          "code": "780-642-9341                                            Credit has been established with Actlabs (refer to Credit Application Form)",
+          "result": "EXACT"
+        },
+        "address": {
+          "gold": "Suite 402, 4999 - 98 Avenue, Edmonton, Alberta T6B 2X3",
+          "code": "Suite 402, 4999 - 98 Avenue",
+          "result": "PARTIAL"
+        },
+        "project": {
+          "gold": "21RFP-SR008",
+          "code": "21RFP-SR008                                    MasterCard Name:",
+          "result": "PARTIAL"
+        },
+        "quote_po_proforma": {
+          "gold": "4400002879",
+          "code": "4400002879                                             AMEX                                                        Expiry Date:                                              CVV:",
+          "result": "PARTIAL"
+        },
+        "num_packages": {
+          "gold": 25,
+          "code": "25",
+          "result": "EXACT"
+        },
+        "num_samples": {
+          "gold": 525,
+          "code": "525",
+          "result": "EXACT"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "RUSH",
+          "result": "PARTIAL"
+        },
+        "payment_method": {
+          "gold": "CreditEstablished",
+          "code": "Included",
+          "result": "MISS"
+        },
+        "special_instructions": {
+          "gold": "Prep by RX15-CUT2 & RX-AGS (see instructions in Service Agreement 21RFP-SR008); report REE chondrite diagrams; email weekly progress summary to Dean.Meek@aer.ca; return remaining portion of cut rocks & pulps after approval in original pails; dispose of rock edge cuttings.",
+          "code": "",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 525,
+        "gold_rows": 1,
+        "code_rows": 19,
+        "code_total_est": 19,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "4B1",
+          "4LITHO-RESEARCH"
+        ],
+        "gold_prep": [
+          "OTHER"
+        ]
+      }
+    },
+    "C3_METALS-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "C3 METALS-1.pdf",
+      "applicable": 14,
+      "exact": 1,
+      "partial": 0,
+      "miss": 13,
+      "credit": 1.0,
+      "strict_acc": 0.071,
+      "weighted_acc": 0.071,
+      "fields": {
+        "company_name": {
+          "gold": "Carube Resources Jamaica Ltd. (C3 Metals Inc.)",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Steve Hughes",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "SHUGHES@C3METALS.COM",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "+1-647-517-4574",
+          "code": "",
+          "result": "MISS"
+        },
+        "address": {
+          "gold": "161 Bay Street, 27th Floor, Toronto, ON, M5J 2S1 CANADA",
+          "code": "",
+          "result": "MISS"
+        },
+        "project": {
+          "gold": "Bellas Gate",
+          "code": "",
+          "result": "MISS"
+        },
+        "quote_po_proforma": {
+          "gold": "BG-23-003",
+          "code": "",
+          "result": "MISS"
+        },
+        "carrier": {
+          "gold": "DHL",
+          "code": "",
+          "result": "MISS"
+        },
+        "waybill": {
+          "gold": "60 0350 8604; Shipment 23-003",
+          "code": "",
+          "result": "MISS"
+        },
+        "num_packages": {
+          "gold": 5,
+          "code": "",
+          "result": "MISS"
+        },
+        "num_samples": {
+          "gold": 31,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        },
+        "payment_method": {
+          "gold": "Included",
+          "code": "",
+          "result": "MISS"
+        },
+        "special_instructions": {
+          "gold": "run over range for Ag and Au automatically; store rejects and pulp. Advise C3metals immediately if package received incomplete; photo documentation if package is damaged/has been opened.",
+          "code": "",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 31,
+        "gold_rows": 7,
+        "code_rows": 0,
+        "code_total_est": 0,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "1A2B",
+          "1A3",
+          "1F-2",
+          "8-4 ACID"
+        ],
+        "gold_prep": [
+          "RX-1",
+          "RX10"
+        ]
+      }
+    },
+    "CHEVRON-1": {
+      "doc_type": "client_form",
+      "kind": "form",
+      "main_file": "CHEVRON-1.pdf",
+      "applicable": 8,
+      "exact": 1,
+      "partial": 0,
+      "miss": 7,
+      "credit": 1.0,
+      "strict_acc": 0.125,
+      "weighted_acc": 0.125,
+      "fields": {
+        "company_name": {
+          "gold": "Chevron",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Michael Cheshire",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "michael.cheshire@chevron.com",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "713 954 6178",
+          "code": "",
+          "result": "MISS"
+        },
+        "address": {
+          "gold": "3901 Briarpark Dr. BP532, Houston, TX 77042",
+          "code": "",
+          "result": "MISS"
+        },
+        "project": {
+          "gold": "HGTC23006",
+          "code": "",
+          "result": "MISS"
+        },
+        "num_samples": {
+          "gold": 9,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        }
+      },
+      "sample_table": {
+        "gold_total": 9,
+        "gold_rows": 1,
+        "code_rows": 0,
+        "code_total_est": 0,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "4 LITHORESEARCH",
+          "4B1",
+          "4F-CL",
+          "4F-CO2",
+          "4F-N",
+          "4F-S",
+          "5D-B",
+          "5D-LI",
+          "GD"
+        ],
+        "gold_prep": [
+          "RX6",
+          "RX7"
+        ]
+      }
+    },
+    "Eion_Corp-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "Eion Corp-1.pdf",
+      "applicable": 10,
+      "exact": 5,
+      "partial": 4,
+      "miss": 1,
+      "credit": 7.0,
+      "strict_acc": 0.5,
+      "weighted_acc": 0.7,
+      "fields": {
+        "company_name": {
+          "gold": "Eion",
+          "code": "Eion                                                METHOD OF PAYMENT",
+          "result": "PARTIAL"
+        },
+        "contact_name": {
+          "gold": "Bill O'Connor",
+          "code": "Bill O'Connor",
+          "result": "EXACT"
+        },
+        "email": {
+          "gold": "bill@eion.team",
+          "code": "bill@eion.team                                                Charge to Credit Card on file with Actlabs",
+          "result": "EXACT"
+        },
+        "phone": {
+          "gold": "541-905-4538",
+          "code": "541-905-4538                                                  Credit has been established with Actlabs (refer to Credit Application Form)",
+          "result": "EXACT"
+        },
+        "address": {
+          "gold": "1546 Industrial Way SW, Albany, OR 97322",
+          "code": "1546 Industrial Way SW                                      Charge to NEW Credit Card (details are provided below)",
+          "result": "PARTIAL"
+        },
+        "project": {
+          "gold": "Rocks 2022",
+          "code": "Rocks 2022                                               MasterCard Name:",
+          "result": "PARTIAL"
+        },
+        "num_packages": {
+          "gold": 1,
+          "code": "1",
+          "result": "EXACT"
+        },
+        "num_samples": {
+          "gold": 6,
+          "code": "6",
+          "result": "EXACT"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "RUSH",
+          "result": "PARTIAL"
+        },
+        "payment_method": {
+          "gold": "CreditCardOnFile",
+          "code": "Included",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 6,
+        "gold_rows": 1,
+        "code_rows": 16,
+        "code_total_est": 16,
+        "total_match": false,
+        "analysis_overlap": [
+          "1G HG 5PPB",
+          "4E-RES+ICPMS",
+          "4F-B 2PPM"
+        ],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "1G HG 5PPB",
+          "4E-RES+ICPMS",
+          "4F-B 2PPM"
+        ],
+        "gold_prep": []
+      }
+    },
+    "Dahrouge-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "Dahrouge-1.pdf",
+      "applicable": 10,
+      "exact": 4,
+      "partial": 3,
+      "miss": 3,
+      "credit": 5.5,
+      "strict_acc": 0.4,
+      "weighted_acc": 0.55,
+      "fields": {
+        "company_name": {
+          "gold": "Dahrouge Geological Consulting",
+          "code": "Dahrouge Geological Consulting                      METHOD OF PAYMENT",
+          "result": "PARTIAL"
+        },
+        "contact_name": {
+          "gold": "Neil McCallum",
+          "code": "Failure to indicate",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "neil@dahrouge.com",
+          "code": "neil@dahrouge.com                                             Charge to Credit Card on file with Actlabs",
+          "result": "EXACT"
+        },
+        "phone": {
+          "gold": "613-219-2975",
+          "code": "613-219-2975                                                  Credit has been established with Actlabs (refer to Credit Application Form)",
+          "result": "EXACT"
+        },
+        "project": {
+          "gold": "Dipole (Tripod)",
+          "code": "Dipole (Tripod)                                        MasterCard Name:",
+          "result": "PARTIAL"
+        },
+        "quote_po_proforma": {
+          "gold": "22708",
+          "code": "AMEX                                                Expiry Date:                           CVV:",
+          "result": "MISS"
+        },
+        "num_packages": {
+          "gold": 1,
+          "code": "1",
+          "result": "EXACT"
+        },
+        "num_samples": {
+          "gold": 11,
+          "code": "11",
+          "result": "EXACT"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "RUSH",
+          "result": "PARTIAL"
+        },
+        "payment_method": {
+          "gold": "CreditEstablished",
+          "code": "Included",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 11,
+        "gold_rows": 1,
+        "code_rows": 16,
+        "code_total_est": 16,
+        "total_match": false,
+        "analysis_overlap": [
+          "UT7"
+        ],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "UT7"
+        ],
+        "gold_prep": []
+      }
+    },
+    "GEOPHYSX-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "GEOPHYSX-1.pdf",
+      "applicable": 12,
+      "exact": 1,
+      "partial": 0,
+      "miss": 11,
+      "credit": 1.0,
+      "strict_acc": 0.083,
+      "weighted_acc": 0.083,
+      "fields": {
+        "company_name": {
+          "gold": "Geophysx Jamaica Ltd.",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Robert Stewart",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "robert.stewart@geophysxjamaica.com",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "1-305-979-5326",
+          "code": "",
+          "result": "MISS"
+        },
+        "address": {
+          "gold": "85 Hope Road, Kingston 6, Jamaica",
+          "code": "",
+          "result": "MISS"
+        },
+        "project": {
+          "gold": "GPJ230711-R",
+          "code": "",
+          "result": "MISS"
+        },
+        "carrier": {
+          "gold": "DHL",
+          "code": "",
+          "result": "MISS"
+        },
+        "waybill": {
+          "gold": "2009950810; Shipment GPJ230711-R",
+          "code": "",
+          "result": "MISS"
+        },
+        "num_packages": {
+          "gold": 3,
+          "code": "",
+          "result": "MISS"
+        },
+        "num_samples": {
+          "gold": 30,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        },
+        "payment_method": {
+          "gold": "CreditCardOnFile",
+          "code": "",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 30,
+        "gold_rows": 1,
+        "code_rows": 24,
+        "code_total_est": 24,
+        "total_match": false,
+        "analysis_overlap": [
+          "ULTRA TRACE 2"
+        ],
+        "prep_overlap": [
+          "RX1-500 (74 MICRONS)"
+        ],
+        "gold_analysis": [
+          "ULTRA TRACE 2"
+        ],
+        "gold_prep": [
+          "RX1-500 (74 MICRONS)"
+        ]
+      }
+    },
+    "LAURENTIA-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "LAURENTIA-1.pdf",
+      "applicable": 12,
+      "exact": 4,
+      "partial": 4,
+      "miss": 4,
+      "credit": 6.0,
+      "strict_acc": 0.333,
+      "weighted_acc": 0.5,
+      "fields": {
+        "company_name": {
+          "gold": "Laurentia Exploration",
+          "code": "Laurentia Exploration                                 METHOD OF PAYMENT",
+          "result": "PARTIAL"
+        },
+        "contact_name": {
+          "gold": "Félix Gauthier Villeneuve",
+          "code": "Failure to indicate",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "felix.gv@laurentiaexploration.com",
+          "code": "felix.gv@laurentiaexploration.com                               Charge to Credit Card on file with Actlabs",
+          "result": "EXACT"
+        },
+        "phone": {
+          "gold": "5812341632",
+          "code": "5812341632                                                      Credit has been established with Actlabs (refer to Credit Application Form)",
+          "result": "EXACT"
+        },
+        "address": {
+          "gold": "3415 rue de l'Énergie, Jonquière, Qc, G7X 0J6",
+          "code": "3415 rue de l'�nergie, Jonqui�re, Qc, G7X 0J6                 Charge to NEW Credit Card (details are provided below)",
+          "result": "PARTIAL"
+        },
+        "project": {
+          "gold": "Bégin-Lamarche",
+          "code": "B�gin-Lamarche                                           MasterCard Name:",
+          "result": "PARTIAL"
+        },
+        "quote_po_proforma": {
+          "gold": "22-015",
+          "code": "AMEX                                              Expiry Date:                       CVV:",
+          "result": "MISS"
+        },
+        "num_packages": {
+          "gold": 19,
+          "code": "19",
+          "result": "EXACT"
+        },
+        "num_samples": {
+          "gold": 82,
+          "code": "82",
+          "result": "EXACT"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "RUSH",
+          "result": "PARTIAL"
+        },
+        "payment_method": {
+          "gold": "Unknown",
+          "code": "Included",
+          "result": "MISS"
+        },
+        "special_instructions": {
+          "gold": "Please also send the results to John Passalacqua (johnpass@rogers.com). Please send Invoice to First Phosphat.",
+          "code": "",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 82,
+        "gold_rows": 1,
+        "code_rows": 16,
+        "code_total_est": 16,
+        "total_match": false,
+        "analysis_overlap": [
+          "4B1"
+        ],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "4B1"
+        ],
+        "gold_prep": []
+      }
+    },
+    "LOMIKO-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "LOMIKO-1.pdf",
+      "applicable": 12,
+      "exact": 5,
+      "partial": 3,
+      "miss": 4,
+      "credit": 6.5,
+      "strict_acc": 0.417,
+      "weighted_acc": 0.542,
+      "fields": {
+        "company_name": {
+          "gold": "Lomiko Metals",
+          "code": "Lomiko Metals                                                            Additional Report to: Marty Huber, Mike Petrina, Gordana Slepcev",
+          "result": "PARTIAL"
+        },
+        "contact_name": {
+          "gold": "Mark Fekete",
+          "code": "Mark Fekete                                                                 Company: g.slepcev@lomiko.com, m.petrina@lomiko.com",
+          "result": "PARTIAL"
+        },
+        "email": {
+          "gold": "mark@breakawayx.com",
+          "code": "mark@breakawayx.com                                                       E-mail: marty@breakawayx.com",
+          "result": "EXACT"
+        },
+        "phone": {
+          "gold": "819-354-5244",
+          "code": "819-354-5244            Fax:                                              Phone : 519-998-0971                Fax:",
+          "result": "EXACT"
+        },
+        "address": {
+          "gold": "439 – 7184 120th Street, Surrey, British Columbia V3W 0M6",
+          "code": "439 7184 120th Street                                                    Address:",
+          "result": "MISS"
+        },
+        "project": {
+          "gold": "GC Regional",
+          "code": "",
+          "result": "MISS"
+        },
+        "quote_po_proforma": {
+          "gold": "Lomiko; Client Batch Lomiko Metals",
+          "code": ", PO #, Proforma #: Lomiko",
+          "result": "MISS"
+        },
+        "carrier": {
+          "gold": "Breakaway",
+          "code": "Breakaway                      Waybill #:                                                # of Packages: 3              # of Samples:63",
+          "result": "PARTIAL"
+        },
+        "num_packages": {
+          "gold": 3,
+          "code": "3",
+          "result": "EXACT"
+        },
+        "num_samples": {
+          "gold": 63,
+          "code": "63",
+          "result": "EXACT"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal (may vary depending on package and time of year - please enquire) Confirmation of Sample Receipt:  Yes       No",
+          "result": "EXACT"
+        },
+        "payment_method": {
+          "gold": "CreditEstablished",
+          "code": "For all clients, unless credit has been established, a suitable form                    Visa       MasterCard    AMEX",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 63,
+        "gold_rows": 2,
+        "code_rows": 5,
+        "code_total_est": 5,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "CODE 8 C - GRAPHITIC (INFRARED)"
+        ],
+        "gold_prep": [
+          "RX!",
+          "RX1"
+        ]
+      }
+    },
+    "GGMC-1": {
+      "doc_type": "client_form",
+      "kind": "form",
+      "main_file": "GGMC-1.pdf",
+      "applicable": 6,
+      "exact": 1,
+      "partial": 0,
+      "miss": 5,
+      "credit": 1.0,
+      "strict_acc": 0.167,
+      "weighted_acc": 0.167,
+      "fields": {
+        "company_name": {
+          "gold": "Guyana Geology and Mines Commission",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Newell Dennison",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "commissioner@ggmc.gov.gy",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "(592) 225-2862 Ext: 245",
+          "code": "(592) 225-2862 Ext: 245",
+          "result": "EXACT"
+        },
+        "address": {
+          "gold": "68 Upper Brickdam, Georgetown, Guyana, South America",
+          "code": "",
+          "result": "MISS"
+        },
+        "special_instructions": {
+          "gold": "Rock: Prep RX2, Analysis 1H (Au+48). Stream sediments: ashing/drying + homogenisation, one split for BLEG before sieving, remainder sieved at -80 mesh (1S), Analysis 1A6 (BLEG) + 1H. Soil: prep suitable for 7-MIG, Analysis 7-MIG. Disposal DISP.",
+          "code": "",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 2198,
+        "gold_rows": 3,
+        "code_rows": 142,
+        "code_total_est": 142,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "1A6",
+          "1H",
+          "4B",
+          "7-MIG",
+          "WRA-ICP"
+        ],
+        "gold_prep": [
+          "1S",
+          "RX2",
+          "S1"
+        ]
+      }
+    },
+    "Goldcorp-1": {
+      "doc_type": "client_form",
+      "kind": "form",
+      "main_file": "Goldcorp-1.pdf",
+      "applicable": 8,
+      "exact": 1,
+      "partial": 0,
+      "miss": 7,
+      "credit": 1.0,
+      "strict_acc": 0.125,
+      "weighted_acc": 0.125,
+      "fields": {
+        "company_name": {
+          "gold": "Goldcorp Canada (Newmont Éléonore)",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Daniel Daoust",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "Jean-Francois.Croteau@newmont.com",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "819-865-4080",
+          "code": "",
+          "result": "MISS"
+        },
+        "address": {
+          "gold": "1751, rue Davy, Rouyn-Noranda, Québec, J9Y 0A8",
+          "code": "",
+          "result": "MISS"
+        },
+        "waybill": {
+          "gold": "ENVP5749",
+          "code": "",
+          "result": "MISS"
+        },
+        "num_samples": {
+          "gold": 300,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        }
+      },
+      "sample_table": {
+        "gold_total": 300,
+        "gold_rows": 1,
+        "code_rows": 0,
+        "code_total_est": 0,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "1A2 + 1A3>3G/T"
+        ],
+        "gold_prep": []
+      }
+    },
+    "EMINCAR-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "EMINCAR-1.docx",
+      "applicable": 12,
+      "exact": 1,
+      "partial": 0,
+      "miss": 11,
+      "credit": 1.0,
+      "strict_acc": 0.083,
+      "weighted_acc": 0.083,
+      "fields": {
+        "company_name": {
+          "gold": "EMINCAR S.A",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Santiago Castro",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "santiago.castro@emincar.com",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "+53 52796272",
+          "code": "",
+          "result": "MISS"
+        },
+        "address": {
+          "gold": "Ave. 3ra entre 76 y 78 Edificio Santa Clara, Oficina No. 130 Miramar, Playa, La Habana, Cuba",
+          "code": "",
+          "result": "MISS"
+        },
+        "quote_po_proforma": {
+          "gold": "21040 S 0000",
+          "code": "",
+          "result": "MISS"
+        },
+        "carrier": {
+          "gold": "UPS",
+          "code": "",
+          "result": "MISS"
+        },
+        "waybill": {
+          "gold": "1Z30638A0406599798",
+          "code": "",
+          "result": "MISS"
+        },
+        "num_packages": {
+          "gold": 1,
+          "code": "",
+          "result": "MISS"
+        },
+        "num_samples": {
+          "gold": 6,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        },
+        "payment_method": {
+          "gold": "Unknown",
+          "code": "",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 6,
+        "gold_rows": 2,
+        "code_rows": 9,
+        "code_total_est": 6,
+        "total_match": true,
+        "analysis_overlap": [
+          "AG",
+          "S",
+          "ZN"
+        ],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "AG",
+          "S",
+          "ZN"
+        ],
+        "gold_prep": []
+      }
+    },
+    "RED_PINE-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "RED PINE-1.docx",
+      "applicable": 13,
+      "exact": 1,
+      "partial": 0,
+      "miss": 12,
+      "credit": 1.0,
+      "strict_acc": 0.077,
+      "weighted_acc": 0.077,
+      "fields": {
+        "company_name": {
+          "gold": "Red Pine Exploration",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Quentin Yarie",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "qyarie@redpineexp.com",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "(416) 364-7024",
+          "code": "",
+          "result": "MISS"
+        },
+        "address": {
+          "gold": "145 Wellington St W, Suite 1001, Toronto, ON, M5J 1H8",
+          "code": "",
+          "result": "MISS"
+        },
+        "project": {
+          "gold": "Wawa Gold Project",
+          "code": "",
+          "result": "MISS"
+        },
+        "quote_po_proforma": {
+          "gold": "Wawa Gold Project",
+          "code": "",
+          "result": "MISS"
+        },
+        "carrier": {
+          "gold": "Manitoulin Transport",
+          "code": "",
+          "result": "MISS"
+        },
+        "num_packages": {
+          "gold": 101,
+          "code": "",
+          "result": "MISS"
+        },
+        "num_samples": {
+          "gold": 405,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        },
+        "payment_method": {
+          "gold": "CreditEstablished",
+          "code": "",
+          "result": "MISS"
+        },
+        "special_instructions": {
+          "gold": "Please refer to attached spreadsheet.",
+          "code": "",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 405,
+        "gold_rows": 1,
+        "code_rows": 200,
+        "code_total_est": 200,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [
+          "RX-1"
+        ],
+        "gold_analysis": [
+          "1A2-50",
+          "UT-6M-REDPINE"
+        ],
+        "gold_prep": [
+          "RX-1"
+        ]
+      }
+    },
+    "SAMA_NICKEL-1": {
+      "doc_type": "actlabs_form",
+      "kind": "form",
+      "main_file": "SAMA NICKEL-1.docx",
+      "applicable": 8,
+      "exact": 1,
+      "partial": 0,
+      "miss": 7,
+      "credit": 1.0,
+      "strict_acc": 0.125,
+      "weighted_acc": 0.125,
+      "fields": {
+        "company_name": {
+          "gold": "SAMA NICKEL CI SARL",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "bakayokobouake@hotmail.com",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "(225) 05 44 32 71 91",
+          "code": "",
+          "result": "MISS"
+        },
+        "address": {
+          "gold": "28 BP 1467 ABIDJAN 28",
+          "code": "",
+          "result": "MISS"
+        },
+        "project": {
+          "gold": "PERMIT NUMBER 837, 839 & 604",
+          "code": "",
+          "result": "MISS"
+        },
+        "num_samples": {
+          "gold": 179,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        },
+        "payment_method": {
+          "gold": "Unknown",
+          "code": "",
+          "result": "MISS"
+        }
+      },
+      "sample_table": {
+        "gold_total": 179,
+        "gold_rows": 4,
+        "code_rows": 185,
+        "code_total_est": 185,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [
+          "NONE"
+        ],
+        "gold_analysis": [
+          "1C-OES AU, PT, PD",
+          "8-NA PEROXIDE FUSION ICP FULL REPORT"
+        ],
+        "gold_prep": [
+          "NONE"
+        ]
+      }
+    },
+    "PROBE-1": {
+      "doc_type": "client_form",
+      "kind": "form",
+      "main_file": "PROBE-1.xlsx",
+      "applicable": 8,
+      "exact": 2,
+      "partial": 0,
+      "miss": 6,
+      "credit": 2.0,
+      "strict_acc": 0.25,
+      "weighted_acc": 0.25,
+      "fields": {
+        "company_name": {
+          "gold": "Probe Gold",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Matthieu Dessureault",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "mdessureault@probegold.com",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "819-860-2769",
+          "code": "",
+          "result": "MISS"
+        },
+        "address": {
+          "gold": "1338 Rue Turcotte",
+          "code": "",
+          "result": "MISS"
+        },
+        "project": {
+          "gold": "SENORE",
+          "code": "SENORE",
+          "result": "EXACT"
+        },
+        "num_samples": {
+          "gold": 98,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        }
+      },
+      "sample_table": {
+        "gold_total": 98,
+        "gold_rows": 1,
+        "code_rows": 0,
+        "code_total_est": 0,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [],
+        "gold_prep": []
+      }
+    },
+    "Burkina_Inventory": {
+      "doc_type": "decoy",
+      "kind": "decoy",
+      "false_positive_fields": 1,
+      "code_sample_rows": 0
+    },
+    "Colombia_Inventory": {
+      "doc_type": "decoy",
+      "kind": "decoy",
+      "false_positive_fields": 1,
+      "code_sample_rows": 0
+    },
+    "Namibia_Inventory": {
+      "doc_type": "decoy",
+      "kind": "decoy",
+      "false_positive_fields": 1,
+      "code_sample_rows": 0
+    },
+    "MRNF-1": {
+      "doc_type": "client_form",
+      "kind": "form",
+      "main_file": "MRNF-1.xls",
+      "applicable": 8,
+      "exact": 1,
+      "partial": 1,
+      "miss": 6,
+      "credit": 1.5,
+      "strict_acc": 0.125,
+      "weighted_acc": 0.188,
+      "fields": {
+        "company_name": {
+          "gold": "Ministère des Ressources naturelles et des Forêts (MRNF / MERN), DACG",
+          "code": "",
+          "result": "MISS"
+        },
+        "contact_name": {
+          "gold": "Théo Hassen Ali",
+          "code": "",
+          "result": "MISS"
+        },
+        "email": {
+          "gold": "Olivier.Lamarche@mern.gouv.qc.ca",
+          "code": "",
+          "result": "MISS"
+        },
+        "phone": {
+          "gold": "438-508-1894",
+          "code": "",
+          "result": "MISS"
+        },
+        "project": {
+          "gold": "HASSEN",
+          "code": "",
+          "result": "MISS"
+        },
+        "quote_po_proforma": {
+          "gold": "Demande No : 1",
+          "code": "nsable à la DACG: Olivier.Lamarche@mern.gouv.qc.ca | Demande No : 1",
+          "result": "PARTIAL"
+        },
+        "num_samples": {
+          "gold": 50,
+          "code": "",
+          "result": "MISS"
+        },
+        "priority": {
+          "gold": "Normal",
+          "code": "Normal",
+          "result": "EXACT"
+        }
+      },
+      "sample_table": {
+        "gold_total": 50,
+        "gold_rows": 5,
+        "code_rows": 0,
+        "code_total_est": 0,
+        "total_match": false,
+        "analysis_overlap": [],
+        "prep_overlap": [],
+        "gold_analysis": [
+          "1C-EXP2",
+          "8",
+          "QC-TOT",
+          "S-TOT"
+        ],
+        "gold_prep": [
+          "RX1"
+        ]
+      }
+    }
+  }
+}
