@@ -1,0 +1,1441 @@
+{
+  "1911_GOLD-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "1911_GOLD-1.pdf",
+    "fields": {
+      "company_name": "1911 Gold Corporation",
+      "contact_name": "Devin Pickell",
+      "email": "dpickell@1911gold.com",
+      "phone": "1-204-277-5411 x 256",
+      "address": "PO Box 1000 Bissett MB R0E 0J0",
+      "project": "1911Gold",
+      "quote_po_proforma": "1911Gold-2020-01-R1; Client Batch CM22010",
+      "carrier": "Manitoulin",
+      "waybill": "24383319",
+      "num_packages": 60,
+      "num_samples": 301,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": "CreditEstablished",
+      "confirmation_email": "dpickell@1911gold.com",
+      "reporting_contacts": [
+        {
+          "name": "Allan Kathler",
+          "email": "akathler@1911gold.com",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        }
+      ],
+      "sample_disposition_matrix": {
+        "pulps": {
+          "after_storage_return": true
+        },
+        "rejects": {
+          "after_storage_return": true
+        },
+        "sieve": null
+      },
+      "return_address": "1911 Gold Corporation, ML63 Antonio Road, Bissett Manitoba R0E0J0, Attn Devin Pickell, Phone 1-204-803-8297 (Carrier account: Gardewine / KLOCAN)",
+      "special_instructions": "Return Pulps and Rejects every 90 days and send duplicate rejects to TSL Saskatoon when notified by client. Duplicates on samples: B1272468, B1272488, B1272508, B1272528, B1272548, B1272568, B1272588, B1272608, B1272628, B1272648, B1272668, B1272688, B1272708, B1272728, B1272748",
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 301,
+      "rows": [
+        {
+          "row_num_samples": 301,
+          "sample_numbers": "B1272452-B1272752 (91 sub-ranges; batch CM22010, series HJ)",
+          "sample_type": "DC / CR",
+          "prep_code": "Rx1",
+          "analysis_code": "1A2 (secondary UT-1M / 4Litho on selected bags)",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "1A2",
+        "UT-1M",
+        "4Litho"
+      ],
+      "distinct_prep_codes": [
+        "Rx1"
+      ]
+    },
+    "companion_files": [
+      "1911_GOLD-2.xlsx"
+    ]
+  },
+  "Alberta_Energy_Regulator-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "Alberta_Energy_Regulator-1.pdf",
+    "fields": {
+      "company_name": "Alberta Energy Regulator",
+      "contact_name": "Dean Meek",
+      "email": "dean.meek@aer.ca",
+      "phone": "780-642-9341",
+      "address": "Suite 402, 4999 - 98 Avenue, Edmonton, Alberta T6B 2X3",
+      "project": "21RFP-SR008",
+      "quote_po_proforma": "4400002879",
+      "carrier": null,
+      "waybill": null,
+      "num_packages": 25,
+      "num_samples": 525,
+      "priority": "Normal",
+      "grade_type": "Exploration",
+      "payment_method": "CreditEstablished",
+      "confirmation_email": "dean.meek@aer.ca",
+      "reporting_contacts": [
+        {
+          "name": "Dean Meek",
+          "email": "Dean.Meek@aer.ca",
+          "confirmation_receipt": true,
+          "report": false,
+          "invoice": false
+        },
+        {
+          "name": "see email addresses",
+          "email": "Christopher.Swoboda@aer.ca; Kelsey.MacCormack@aer.ca; Dean.Meek@aer.ca",
+          "confirmation_receipt": false,
+          "report": true,
+          "invoice": true
+        },
+        {
+          "name": "see email addresses",
+          "email": "Calla.Knudson@aer.ca; Vicki.Easthom@aer.ca",
+          "confirmation_receipt": false,
+          "report": true,
+          "invoice": true
+        }
+      ],
+      "sample_disposition_matrix": {
+        "pulps": {
+          "after_storage_return": true
+        },
+        "rejects": {
+          "after_storage_return": true
+        },
+        "sieve": null
+      },
+      "return_address": "Mineral Core Research Facility, 4504 Eleniak Road (63 Ave) Edmonton, AB T6B 2S1, Attn Dean Meek",
+      "special_instructions": "Prep by RX15-CUT2 & RX-AGS (see instructions in Service Agreement 21RFP-SR008); report REE chondrite diagrams; email weekly progress summary to Dean.Meek@aer.ca; return remaining portion of cut rocks & pulps after approval in original pails; dispose of rock edge cuttings.",
+      "hazardous_materials": false,
+      "authorized_signature": "(signed)",
+      "authorized_print_name": "Dean Meek",
+      "authorized_date": "2022-09-19",
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 525,
+      "rows": [
+        {
+          "row_num_samples": 525,
+          "sample_numbers": "525 samples across 25 pails (Pail_58–Pail_82), incl. 25 CRMs; AGS names GC-21-JG-… (see Excel list)",
+          "sample_type": "R - Rock",
+          "prep_code": "Other",
+          "analysis_code": "4Litho-Research & 4B1",
+          "overlimit_code": "NA"
+        }
+      ],
+      "distinct_analysis_codes": [
+        "4Litho-Research",
+        "4B1"
+      ],
+      "distinct_prep_codes": [
+        "Other"
+      ]
+    },
+    "companion_files": [
+      "ALBERTA_ENERGY_REGULATOR-2.xlsx"
+    ]
+  },
+  "C3_METALS-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "C3_METALS-1.pdf",
+    "fields": {
+      "company_name": "Carube Resources Jamaica Ltd. (C3 Metals Inc.)",
+      "contact_name": "Steve Hughes",
+      "email": "SHUGHES@C3METALS.COM",
+      "phone": "+1-647-517-4574",
+      "address": "161 Bay Street, 27th Floor, Toronto, ON, M5J 2S1 CANADA",
+      "project": "Bellas Gate",
+      "quote_po_proforma": "BG-23-003",
+      "carrier": "DHL",
+      "waybill": "60 0350 8604; Shipment 23-003",
+      "num_packages": 5,
+      "num_samples": 31,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": "Included",
+      "confirmation_email": "odouse@c3metals.com",
+      "reporting_contacts": [
+        {
+          "name": "Okelia Douse",
+          "email": "odouse@c3metals.com",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        }
+      ],
+      "sample_disposition_matrix": {
+        "pulps": {
+          "paid_storage": true
+        },
+        "rejects": {
+          "paid_storage": true
+        },
+        "sieve": null
+      },
+      "return_address": "consult Steve Hughes for details on rejects returns",
+      "special_instructions": "run over range for Ag and Au automatically; store rejects and pulp. Advise C3metals immediately if package received incomplete; photo documentation if package is damaged/has been opened.",
+      "hazardous_materials": null,
+      "authorized_signature": "(signed)",
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 31,
+      "rows": [
+        {
+          "row_num_samples": 2,
+          "sample_numbers": "J002308-J002309",
+          "sample_type": "R",
+          "prep_code": "RX-1, RX10",
+          "analysis_code": "1A2B, 1A3, 1F-2, 8-4 acid",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 2,
+          "sample_numbers": "J002401-J002402",
+          "sample_type": "R",
+          "prep_code": "RX-1, RX10",
+          "analysis_code": "1A2B, 1A3, 1F-2, 8-4 acid",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 2,
+          "sample_numbers": "J002413-J002414",
+          "sample_type": "R",
+          "prep_code": "RX-1, RX10",
+          "analysis_code": "1A2B, 1A3, 1F-2, 8-4 acid",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 3,
+          "sample_numbers": "J002416-J002418",
+          "sample_type": "R",
+          "prep_code": "RX-1, RX10",
+          "analysis_code": "1A2B, 1A3, 1F-2, 8-4 acid",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 2,
+          "sample_numbers": "J002420-J002421",
+          "sample_type": "R",
+          "prep_code": "RX-1, RX10",
+          "analysis_code": "1A2B, 1A3, 1F-2, 8-4 acid",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 7,
+          "sample_numbers": "J003461-J003467",
+          "sample_type": "R",
+          "prep_code": "RX-1, RX10",
+          "analysis_code": "1A2B, 1A3, 1F-2, 8-4 acid",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 13,
+          "sample_numbers": "J004952-J004964",
+          "sample_type": "R",
+          "prep_code": "RX-1, RX10",
+          "analysis_code": "1A2B, 1A3, 1F-2, 8-4 acid",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "1A2B",
+        "1A3",
+        "1F-2",
+        "8-4 acid"
+      ],
+      "distinct_prep_codes": [
+        "RX-1",
+        "RX10"
+      ]
+    },
+    "companion_files": [
+      "C3_METALS-2.csv"
+    ]
+  },
+  "CHEVRON-1": {
+    "doc_type": "client_form",
+    "source_filename": "CHEVRON-1.pdf",
+    "fields": {
+      "company_name": "Chevron",
+      "contact_name": "Michael Cheshire",
+      "email": "michael.cheshire@chevron.com",
+      "phone": "713 954 6178",
+      "address": "3901 Briarpark Dr. BP532, Houston, TX 77042",
+      "project": "HGTC23006",
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": null,
+      "num_packages": null,
+      "num_samples": 9,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": null,
+      "confirmation_email": null,
+      "reporting_contacts": null,
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": "~6-10g",
+      "customs_tariff": "2617.90.00.90",
+      "billing_code": "SO 0060014100-002; CODE FW00000021PS000001597",
+      "job_number": "HGTC23006",
+      "testing_notes": "Report on all final data reports (header or footnote): (1) weight as received at time of analysis; (2) RH% in the lab at time of analysis; (3) return leftover material. Do not heat sample before recording 'as-is' reference weights.",
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 9,
+      "rows": [
+        {
+          "row_num_samples": 9,
+          "sample_numbers": "HGTC23006-004 to HGTC23006-012",
+          "sample_type": null,
+          "prep_code": null,
+          "analysis_code": "4 Lithoresearch, 4B1 All, 4F-Cl, 4F-CO2, 5D-B, Gd, 5D-Li, 4F-N, 4F-S, RX6+RX7",
+          "overlimit_code": "8-4 Acid Mo overrange if needed"
+        }
+      ],
+      "distinct_analysis_codes": [
+        "4 Lithoresearch",
+        "4B1",
+        "4F-Cl",
+        "4F-CO2",
+        "5D-B",
+        "Gd",
+        "5D-Li",
+        "4F-N",
+        "4F-S"
+      ],
+      "distinct_prep_codes": [
+        "RX6",
+        "RX7"
+      ]
+    }
+  },
+  "Eion_Corp-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "Eion_Corp-1.pdf",
+    "fields": {
+      "company_name": "Eion",
+      "contact_name": "Bill O'Connor",
+      "email": "bill@eion.team",
+      "phone": "541-905-4538",
+      "address": "1546 Industrial Way SW, Albany, OR 97322",
+      "project": "Rocks 2022",
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": null,
+      "num_packages": 1,
+      "num_samples": 6,
+      "priority": "Normal",
+      "grade_type": "Ore",
+      "payment_method": "CreditCardOnFile",
+      "confirmation_email": null,
+      "reporting_contacts": [
+        {
+          "name": "Bill O'Connor",
+          "email": "bill@eion.team",
+          "confirmation_receipt": false,
+          "report": true,
+          "invoice": false
+        },
+        {
+          "name": "Lab Analysis",
+          "email": "lab.analysis@eion.team",
+          "confirmation_receipt": true,
+          "report": true,
+          "invoice": false
+        },
+        {
+          "name": "Accounts Payable",
+          "email": "ap@eion.team",
+          "confirmation_receipt": false,
+          "report": false,
+          "invoice": true
+        }
+      ],
+      "sample_disposition_matrix": {
+        "pulps": {
+          "immediately_return": true
+        },
+        "rejects": {
+          "immediately_return": true
+        },
+        "sieve": {
+          "immediately_return": true
+        }
+      },
+      "return_address": "1546 Industrial Way SW, Albany, OR 97322, Attn Bill O'Connor (Carrier FedEx, Account 772224192)",
+      "special_instructions": null,
+      "hazardous_materials": false,
+      "authorized_signature": "(signed)",
+      "authorized_print_name": "William K O'Connor",
+      "authorized_date": "2023-08-01",
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 6,
+      "rows": [
+        {
+          "row_num_samples": 6,
+          "sample_numbers": "FS0012-b; FS0031-FS0035",
+          "sample_type": "R - Rock",
+          "prep_code": null,
+          "analysis_code": "4E-RES+ICPMS; 1G Hg 5ppb; 4F-B 2ppm",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "4E-RES+ICPMS",
+        "1G Hg 5ppb",
+        "4F-B 2ppm"
+      ],
+      "distinct_prep_codes": []
+    }
+  },
+  "Dahrouge-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "Dahrouge-1.pdf",
+    "fields": {
+      "company_name": "Dahrouge Geological Consulting",
+      "contact_name": "Neil McCallum",
+      "email": "neil@dahrouge.com",
+      "phone": "613-219-2975",
+      "address": null,
+      "project": "Dipole (Tripod)",
+      "quote_po_proforma": "22708",
+      "carrier": null,
+      "waybill": null,
+      "num_packages": 1,
+      "num_samples": 11,
+      "priority": "Normal",
+      "grade_type": "Exploration",
+      "payment_method": "CreditEstablished",
+      "confirmation_email": null,
+      "reporting_contacts": [
+        {
+          "name": "Glenna Wagner",
+          "email": "accountspayable@dahrouge.com",
+          "confirmation_receipt": false,
+          "report": false,
+          "invoice": true
+        },
+        {
+          "name": "Neil McCallum",
+          "email": "neil@dahrouge.com",
+          "confirmation_receipt": true,
+          "report": true,
+          "invoice": true
+        }
+      ],
+      "sample_disposition_matrix": {
+        "pulps": {
+          "dispose": true
+        },
+        "rejects": {
+          "dispose": true
+        },
+        "sieve": {
+          "dispose": true
+        }
+      },
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": false,
+      "authorized_signature": "(signed)",
+      "authorized_print_name": "Neil McCallum",
+      "authorized_date": "2022-12-07",
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 11,
+      "rows": [
+        {
+          "row_num_samples": 11,
+          "sample_numbers": "392901 to 392911",
+          "sample_type": "P - Pulp",
+          "prep_code": null,
+          "analysis_code": "UT7",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "UT7"
+      ],
+      "distinct_prep_codes": []
+    }
+  },
+  "GEOPHYSX-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "GEOPHYSX-1.pdf",
+    "fields": {
+      "company_name": "Geophysx Jamaica Ltd.",
+      "contact_name": "Robert Stewart",
+      "email": "robert.stewart@geophysxjamaica.com",
+      "phone": "1-305-979-5326",
+      "address": "85 Hope Road, Kingston 6, Jamaica",
+      "project": "GPJ230711-R",
+      "quote_po_proforma": null,
+      "carrier": "DHL",
+      "waybill": "2009950810; Shipment GPJ230711-R",
+      "num_packages": 3,
+      "num_samples": 30,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": "CreditCardOnFile",
+      "confirmation_email": "robert.stewart@geophysxjamaica.com",
+      "reporting_contacts": null,
+      "sample_disposition_matrix": {
+        "pulps": {
+          "paid_storage": true
+        },
+        "rejects": {
+          "paid_storage": true
+        },
+        "sieve": {
+          "paid_storage": true
+        }
+      },
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": "(signed)",
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": "Rock type: 30 Rock Samples",
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 30,
+      "rows": [
+        {
+          "row_num_samples": 30,
+          "sample_numbers": "Rock samples - See attached spreadsheet",
+          "sample_type": "R",
+          "prep_code": "RX1-500 (74 microns)",
+          "analysis_code": "Ultra Trace 2",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "Ultra Trace 2"
+      ],
+      "distinct_prep_codes": [
+        "RX1-500 (74 microns)"
+      ]
+    },
+    "companion_files": [
+      "GEOPHYSX-2.xlsx"
+    ]
+  },
+  "LAURENTIA-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "LAURENTIA-1.pdf",
+    "fields": {
+      "company_name": "Laurentia Exploration",
+      "contact_name": "Félix Gauthier Villeneuve",
+      "email": "felix.gv@laurentiaexploration.com",
+      "phone": "5812341632",
+      "address": "3415 rue de l'Énergie, Jonquière, Qc, G7X 0J6",
+      "project": "Bégin-Lamarche",
+      "quote_po_proforma": "22-015",
+      "carrier": null,
+      "waybill": null,
+      "num_packages": 19,
+      "num_samples": 82,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": "Unknown",
+      "confirmation_email": null,
+      "reporting_contacts": [
+        {
+          "name": "Jean-Philippe Arguin",
+          "email": "jp.arguin@laurentiaexploration.com",
+          "confirmation_receipt": true,
+          "report": true,
+          "invoice": false
+        },
+        {
+          "name": "Gilles Laverdière",
+          "email": "gilles.laverdiere@videotron.ca",
+          "confirmation_receipt": true,
+          "report": true,
+          "invoice": true
+        },
+        {
+          "name": "Hugues Guérin Tremblay",
+          "email": "hugues.gt@laurentiaexploration.com",
+          "confirmation_receipt": true,
+          "report": true,
+          "invoice": false
+        }
+      ],
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": "Please also send the results to John Passalacqua (johnpass@rogers.com). Please send Invoice to First Phosphat.",
+      "hazardous_materials": false,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 82,
+      "rows": [
+        {
+          "row_num_samples": 82,
+          "sample_numbers": "C562651 to C562732",
+          "sample_type": "DC - Core",
+          "prep_code": null,
+          "analysis_code": "4B1",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "4B1"
+      ],
+      "distinct_prep_codes": []
+    }
+  },
+  "LOMIKO-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "LOMIKO-1.pdf",
+    "fields": {
+      "company_name": "Lomiko Metals",
+      "contact_name": "Mark Fekete",
+      "email": "mark@breakawayx.com",
+      "phone": "819-354-5244",
+      "address": "439 – 7184 120th Street, Surrey, British Columbia V3W 0M6",
+      "project": "GC Regional",
+      "quote_po_proforma": "Lomiko; Client Batch Lomiko Metals",
+      "carrier": "Breakaway",
+      "waybill": null,
+      "num_packages": 3,
+      "num_samples": 63,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": "CreditEstablished",
+      "confirmation_email": "mark@breakawayx.com",
+      "reporting_contacts": [
+        {
+          "name": "Marty Huber, Mike Petrina, Gordana Slepcev",
+          "email": "marty@breakawayx.com; g.slepcev@lomiko.com; m.petrina@lomiko.com",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        }
+      ],
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": "(signed)",
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 63,
+      "rows": [
+        {
+          "row_num_samples": 34,
+          "sample_numbers": "147421 - 454",
+          "sample_type": "R",
+          "prep_code": "RX1",
+          "analysis_code": "Code 8 C - Graphitic (Infrared)",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 29,
+          "sample_numbers": "129600 - 628",
+          "sample_type": "R",
+          "prep_code": "RX!",
+          "analysis_code": "Code 8 C - Graphitic (Infrared)",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "Code 8 C - Graphitic (Infrared)"
+      ],
+      "distinct_prep_codes": [
+        "RX1",
+        "RX!"
+      ]
+    }
+  },
+  "GGMC-1": {
+    "doc_type": "client_form",
+    "source_filename": "GGMC-1.pdf",
+    "fields": {
+      "company_name": "Guyana Geology and Mines Commission",
+      "contact_name": "Newell Dennison",
+      "email": "commissioner@ggmc.gov.gy",
+      "phone": "(592) 225-2862 Ext: 245",
+      "address": "68 Upper Brickdam, Georgetown, Guyana, South America",
+      "project": null,
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": null,
+      "num_packages": null,
+      "num_samples": null,
+      "priority": null,
+      "grade_type": null,
+      "payment_method": null,
+      "confirmation_email": null,
+      "reporting_contacts": null,
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": "Rock: Prep RX2, Analysis 1H (Au+48). Stream sediments: ashing/drying + homogenisation, one split for BLEG before sieving, remainder sieved at -80 mesh (1S), Analysis 1A6 (BLEG) + 1H. Soil: prep suitable for 7-MIG, Analysis 7-MIG. Disposal DISP.",
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": "WRA-ICP, 4B",
+      "disposal_code": "DISP"
+    },
+    "sample_table": {
+      "total_samples": 2198,
+      "rows": [
+        {
+          "row_num_samples": 592,
+          "sample_numbers": "20 rock-sample projects (see attached list)",
+          "sample_type": "R",
+          "prep_code": "RX2",
+          "analysis_code": "1H",
+          "overlimit_code": "WRA-ICP, 4B"
+        },
+        {
+          "row_num_samples": 1593,
+          "sample_numbers": "5 stream-sediment projects",
+          "sample_type": "SS",
+          "prep_code": "S1 / 1S",
+          "analysis_code": "1A6; 1H",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 13,
+          "sample_numbers": "Upper Rupununi Phase-II",
+          "sample_type": "S",
+          "prep_code": "7-MIG prep",
+          "analysis_code": "7-MIG",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "1H",
+        "1A6",
+        "7-MIG",
+        "WRA-ICP",
+        "4B"
+      ],
+      "distinct_prep_codes": [
+        "RX2",
+        "S1",
+        "1S"
+      ]
+    },
+    "companion_files": [
+      "GGMC-2.xlsx"
+    ]
+  },
+  "Goldcorp-1": {
+    "doc_type": "client_form",
+    "source_filename": "Goldcorp-1.pdf",
+    "fields": {
+      "company_name": "Goldcorp Canada (Newmont Éléonore)",
+      "contact_name": "Daniel Daoust",
+      "email": "Jean-Francois.Croteau@newmont.com",
+      "phone": "819-865-4080",
+      "address": "1751, rue Davy, Rouyn-Noranda, Québec, J9Y 0A8",
+      "project": null,
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": "ENVP5749",
+      "num_packages": null,
+      "num_samples": 300,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": null,
+      "confirmation_email": "Rabah.Souilah@newmont.com",
+      "reporting_contacts": null,
+      "sample_disposition_matrix": {
+        "pulps": {
+          "after_storage_return": true
+        },
+        "rejects": {
+          "dispose": true
+        },
+        "sieve": null
+      },
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": "(signed)",
+      "authorized_print_name": "Daniel Daoust",
+      "authorized_date": "2023-07-21",
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": "1A2 + 1A3>3g/t; PO 4570077703",
+      "shipment_type": "NORMAL",
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 300,
+      "rows": [
+        {
+          "row_num_samples": 300,
+          "sample_numbers": "P853501 to P853800",
+          "sample_type": null,
+          "prep_code": null,
+          "analysis_code": "1A2 + 1A3>3g/t",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "1A2 + 1A3>3g/t"
+      ],
+      "distinct_prep_codes": []
+    }
+  },
+  "EMINCAR-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "EMINCAR-1.docx",
+    "fields": {
+      "company_name": "EMINCAR S.A",
+      "contact_name": "Santiago Castro",
+      "email": "santiago.castro@emincar.com",
+      "phone": "+53 52796272",
+      "address": "Ave. 3ra entre 76 y 78 Edificio Santa Clara, Oficina No. 130 Miramar, Playa, La Habana, Cuba",
+      "project": null,
+      "quote_po_proforma": "21040 S 0000",
+      "carrier": "UPS",
+      "waybill": "1Z30638A0406599798",
+      "num_packages": 1,
+      "num_samples": 6,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": "Unknown",
+      "confirmation_email": "supervision@emincar.cu",
+      "reporting_contacts": [
+        {
+          "name": "EMINCAR S.A",
+          "email": "elizabeth.lopez@emincar.com; supervision@emincar.cu",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        }
+      ],
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 6,
+      "rows": [
+        {
+          "row_num_samples": 3,
+          "sample_numbers": "2304471 / 2023-00063 ZN (Lot1 DMT461.032, Lot2 DMT461.645, Lot3 DMT461.517)",
+          "sample_type": null,
+          "prep_code": null,
+          "analysis_code": "Zn / Ag / S",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 3,
+          "sample_numbers": "2304467 / 2023-00064 ZN (Lot1 DMT460.600, Lot2 DMT460.050, Lot3 DMT469.377)",
+          "sample_type": null,
+          "prep_code": null,
+          "analysis_code": "Zn / Ag / S",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "Zn",
+        "Ag",
+        "S"
+      ],
+      "distinct_prep_codes": []
+    }
+  },
+  "RED_PINE-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "RED_PINE-1.docx",
+    "fields": {
+      "company_name": "Red Pine Exploration",
+      "contact_name": "Quentin Yarie",
+      "email": "qyarie@redpineexp.com",
+      "phone": "(416) 364-7024",
+      "address": "145 Wellington St W, Suite 1001, Toronto, ON, M5J 1H8",
+      "project": "Wawa Gold Project",
+      "quote_po_proforma": "Wawa Gold Project",
+      "carrier": "Manitoulin Transport",
+      "waybill": null,
+      "num_packages": 101,
+      "num_samples": 405,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": "CreditEstablished",
+      "confirmation_email": null,
+      "reporting_contacts": null,
+      "sample_disposition_matrix": null,
+      "return_address": "Red Pine Exploration, Manitoulin Transport Depot, Wawa, ON, Attn Andrew Watt, Phone (705) 690-8400 (Carrier account: Manitoulin Transport, customer code 103086)",
+      "special_instructions": "Please refer to attached spreadsheet.",
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 405,
+      "rows": [
+        {
+          "row_num_samples": 200,
+          "sample_numbers": "TOTE 1/2: 200 samples from 655721 (50 bags); remaining ~205 on second tote",
+          "sample_type": "R",
+          "prep_code": "RX-1",
+          "analysis_code": "1A2-50*, UT-6M-Redpine (key elements Au, Ag, As)",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "1A2-50",
+        "UT-6M-Redpine"
+      ],
+      "distinct_prep_codes": [
+        "RX-1"
+      ]
+    },
+    "companion_files": [
+      "RED_PINE-2.xlsx"
+    ]
+  },
+  "SAMA_NICKEL-1": {
+    "doc_type": "actlabs_form",
+    "source_filename": "SAMA_NICKEL-1.docx",
+    "fields": {
+      "company_name": "SAMA NICKEL CI SARL",
+      "contact_name": null,
+      "email": "bakayokobouake@hotmail.com",
+      "phone": "(225) 05 44 32 71 91",
+      "address": "28 BP 1467 ABIDJAN 28",
+      "project": "PERMIT NUMBER 837, 839 & 604",
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": null,
+      "num_packages": null,
+      "num_samples": 179,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": "Unknown",
+      "confirmation_email": null,
+      "reporting_contacts": [
+        {
+          "name": "Marc-Antoine AUDET",
+          "email": "CEO@samaresources.com; evans_dave_m@hotmail.com",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        }
+      ],
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 179,
+      "rows": [
+        {
+          "row_num_samples": 179,
+          "sample_numbers": "84012 TO 84656",
+          "sample_type": "P",
+          "prep_code": "None",
+          "analysis_code": "8-Na Peroxide Fusion ICP full report + 1C-OES Au, Pt, Pd",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": null,
+          "sample_numbers": "83048 TO 83557",
+          "sample_type": "P",
+          "prep_code": "None",
+          "analysis_code": "8-Na Peroxide Fusion ICP full report + 1C-OES Au, Pt, Pd",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": null,
+          "sample_numbers": "84015 TO 84651",
+          "sample_type": "P",
+          "prep_code": "None",
+          "analysis_code": "8-Na Peroxide Fusion ICP full report + 1C-OES Au, Pt, Pd",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": null,
+          "sample_numbers": "81001 TO 81011",
+          "sample_type": "P",
+          "prep_code": "None",
+          "analysis_code": "8-Na Peroxide Fusion ICP full report + 1C-OES Au, Pt, Pd",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "8-Na Peroxide Fusion ICP full report",
+        "1C-OES Au, Pt, Pd"
+      ],
+      "distinct_prep_codes": [
+        "None"
+      ]
+    },
+    "companion_files": [
+      "SAMA_NICKEL-2.xls"
+    ]
+  },
+  "PROBE-1": {
+    "doc_type": "client_form",
+    "source_filename": "PROBE-1.xlsx",
+    "fields": {
+      "company_name": "Probe Gold",
+      "contact_name": "Matthieu Dessureault",
+      "email": "mdessureault@probegold.com",
+      "phone": "819-860-2769",
+      "address": "1338 Rue Turcotte",
+      "project": "SENORE",
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": null,
+      "num_packages": null,
+      "num_samples": 98,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": null,
+      "confirmation_email": null,
+      "reporting_contacts": [
+        {
+          "name": null,
+          "email": "ltheberge@probegold.com",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        },
+        {
+          "name": null,
+          "email": "mgagnon@probegold.com",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        },
+        {
+          "name": null,
+          "email": "Ydessureault@probegold.com",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        },
+        {
+          "name": null,
+          "email": "pburniaux@probegold.com",
+          "confirmation_receipt": null,
+          "report": null,
+          "invoice": null
+        }
+      ],
+      "sample_disposition_matrix": {
+        "pulps": {
+          "after_storage_return": true
+        },
+        "rejects": {
+          "after_storage_return": true
+        },
+        "sieve": null
+      },
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": "2023-07-23",
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": "Délai analytique désiré: 10 à 15 jours. Skids #: 220. Sample type: CAROTTES (core).",
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 98,
+      "rows": [
+        {
+          "row_num_samples": 98,
+          "sample_numbers": "C645528 to C645625",
+          "sample_type": "C - Carottes (Core)",
+          "prep_code": null,
+          "analysis_code": null,
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [],
+      "distinct_prep_codes": []
+    }
+  },
+  "Burkina_Inventory": {
+    "doc_type": "decoy",
+    "source_filename": "Burkina_Inventory.xlsx",
+    "fields": {
+      "company_name": null,
+      "contact_name": null,
+      "email": null,
+      "phone": null,
+      "address": null,
+      "project": null,
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": null,
+      "num_packages": null,
+      "num_samples": null,
+      "priority": null,
+      "grade_type": null,
+      "payment_method": null,
+      "confirmation_email": null,
+      "reporting_contacts": null,
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 0,
+      "rows": [],
+      "distinct_analysis_codes": [],
+      "distinct_prep_codes": []
+    }
+  },
+  "Colombia_Inventory": {
+    "doc_type": "decoy",
+    "source_filename": "Colombia_Inventory.xlsx",
+    "fields": {
+      "company_name": null,
+      "contact_name": null,
+      "email": null,
+      "phone": null,
+      "address": null,
+      "project": null,
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": null,
+      "num_packages": null,
+      "num_samples": null,
+      "priority": null,
+      "grade_type": null,
+      "payment_method": null,
+      "confirmation_email": null,
+      "reporting_contacts": null,
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 0,
+      "rows": [],
+      "distinct_analysis_codes": [],
+      "distinct_prep_codes": []
+    }
+  },
+  "Namibia_Inventory": {
+    "doc_type": "decoy",
+    "source_filename": "Namibia_Inventory.xlsx",
+    "fields": {
+      "company_name": null,
+      "contact_name": null,
+      "email": null,
+      "phone": null,
+      "address": null,
+      "project": null,
+      "quote_po_proforma": null,
+      "carrier": null,
+      "waybill": null,
+      "num_packages": null,
+      "num_samples": null,
+      "priority": null,
+      "grade_type": null,
+      "payment_method": null,
+      "confirmation_email": null,
+      "reporting_contacts": null,
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": null,
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": null,
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 0,
+      "rows": [],
+      "distinct_analysis_codes": [],
+      "distinct_prep_codes": []
+    }
+  },
+  "MRNF-1": {
+    "doc_type": "client_form",
+    "source_filename": "MRNF-1.xls",
+    "fields": {
+      "company_name": "Ministère des Ressources naturelles et des Forêts (MRNF / MERN), DACG",
+      "contact_name": "Théo Hassen Ali",
+      "email": "Olivier.Lamarche@mern.gouv.qc.ca",
+      "phone": "438-508-1894",
+      "address": null,
+      "project": "HASSEN",
+      "quote_po_proforma": "Demande No : 1",
+      "carrier": null,
+      "waybill": null,
+      "num_packages": null,
+      "num_samples": 50,
+      "priority": "Normal",
+      "grade_type": null,
+      "payment_method": null,
+      "confirmation_email": null,
+      "reporting_contacts": null,
+      "sample_disposition_matrix": null,
+      "return_address": null,
+      "special_instructions": null,
+      "hazardous_materials": null,
+      "authorized_signature": null,
+      "authorized_print_name": null,
+      "authorized_date": "2023-07-11",
+      "sample_weight": null,
+      "customs_tariff": null,
+      "billing_code": null,
+      "job_number": null,
+      "testing_notes": "Prep RX1 = transport + concassage + pulvérisation + tamisage (200 mesh). QC-tot = QC-maj + QC-tra + QC-ÉTR (≈ 4LithoRech + 4B1 + 4B-INAA). Économique 1C-EXP2 (Au/Pt/Pd), minéralisations code 8, S-tot. Responsable DACG: Olivier.Lamarche@mern.gouv.qc.ca; date reçue 2023-07-18.",
+      "analysis_suite": null,
+      "shipment_type": null,
+      "wra_code": null,
+      "disposal_code": null
+    },
+    "sample_table": {
+      "total_samples": 50,
+      "rows": [
+        {
+          "row_num_samples": 9,
+          "sample_numbers": "78900-78908",
+          "sample_type": "UM (ultramafique) / AG",
+          "prep_code": "RX1",
+          "analysis_code": "QC-tot; 1C-EXP2; 8; S-tot",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 2,
+          "sample_numbers": "78909-78910",
+          "sample_type": "IN (intermédiaire) / AG",
+          "prep_code": "RX1",
+          "analysis_code": "QC-tot; 1C-EXP2; 8; S-tot",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 36,
+          "sample_numbers": "78911-78946",
+          "sample_type": "MA (mafique) / AG",
+          "prep_code": "RX1",
+          "analysis_code": "QC-tot; 1C-EXP2; 8; S-tot",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 2,
+          "sample_numbers": "78947-78948",
+          "sample_type": "IN (intermédiaire) / AG",
+          "prep_code": "RX1",
+          "analysis_code": "QC-tot; 1C-EXP2; 8; S-tot",
+          "overlimit_code": null
+        },
+        {
+          "row_num_samples": 1,
+          "sample_numbers": "78949-78949",
+          "sample_type": "MA (mafique) / AG",
+          "prep_code": "RX1",
+          "analysis_code": "QC-tot; 1C-EXP2; 8; S-tot",
+          "overlimit_code": null
+        }
+      ],
+      "distinct_analysis_codes": [
+        "QC-tot",
+        "1C-EXP2",
+        "8",
+        "S-tot"
+      ],
+      "distinct_prep_codes": [
+        "RX1"
+      ]
+    }
+  }
+}
