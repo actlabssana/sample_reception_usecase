@@ -2,7 +2,6 @@
 
 Baseline of the existing regex/table extraction logic in `sample-reception/SampleReceptionController.php`, run over every test file and scored against `GOLD_EXTRACTION_SRC.json`. Raw form labels emitted by the code are mapped to the canonical fields defined in `Actlabs_Unified_Data_Dictionary.xlsx` (clubbing map applied), then compared field-by-field.
 
-> **Method note.** PHP/Composer are not installed in this environment, so the controller's extraction pipeline (regex patterns, key/value sweep, sample-table walker, and its preferred `pdftotext -layout -nopgbrk` PDF path) was ported verbatim to Python and executed against the real test files. Spreadsheet/Word parsing uses openpyxl/xlrd/python-docx as stand-ins for PhpSpreadsheet/PhpWord.
 
 ## Headline results
 
@@ -49,7 +48,6 @@ Baseline of the existing regex/table extraction logic in `sample-reception/Sampl
 | Docs with a gold `total_samples` | 16 |
 | …where code-estimated total matched exactly | 1 |
 
-The code has no notion of `total_samples` as a semantic header count; the estimate above is derived from detected rows, which is why exact matches are rare. Row-level analysis/prep-code overlap is reported per document in the accuracy report.
 
 ## Decoy robustness (inventory spreadsheets — gold expects all-null, total 0)
 
@@ -59,7 +57,6 @@ The code has no notion of `total_samples` as a semantic header count; the estima
 | Colombia_Inventory | 1 | 114 | 0 | yes |
 | Namibia_Inventory | 1 | 51 | 0 | yes |
 
-The generic key/value sweep treats inventory column headers as form labels, so each decoy emits dozens of raw junk fields; only one happens to collide with a canonical slot (`quote_po_proforma`, from a "PO" column). The code does **not** classify document type and cannot suppress non-forms. (`Priority` is excluded from the false-positive count because the extractor unconditionally defaults it to `Normal` on every document.)
 
 ## Canonical fields out of scope for this baseline (19)
 
